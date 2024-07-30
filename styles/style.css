@@ -82,3 +82,22 @@ footer p{
     text-align: center;
     font-size: 20px;
 }
+/* small device  */
+@media screen and (max-width:576px) {
+    .hero-Container{
+        flex-direction: column;
+    }
+    .recipie-container-items{
+        flex-direction: column;
+    }
+.online-follower-container{
+    max-width: 100%;
+    
+}
+.online-follower-context span{
+    font-size: 25px;
+}
+.online-follower-context p{
+    font-size: 15px;
+}
+}
